@@ -1,13 +1,12 @@
-<?= $this->extend('layouts/master') ?>
+<?= $this->extend('layouts/master')?>
 
-<?= $this->section('content') ?>
+<?= $this->section('content')?>
 
 <div class="row match-height">
-    <h1 class="mt-3">tesss</h1>
+    <h1 class="mt-3">Chart Page</h1>
 </div>
 
-<?= $this->endSection() ?>
-
+<?= $this->endSection()?> 
 
 <?= $this->section('custom_js') ?>
 <script src="<?= base_url('theme-assets/vendors/js/charts/chartist.min.js') ?>"></script>

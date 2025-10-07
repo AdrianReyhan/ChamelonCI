@@ -8,10 +8,18 @@ class Home extends BaseController
     {
         return view('auth/login');
     }
+    public function register(): string
+    {
+        return view('auth/register');
+    }
 
     public function dashboard(): string
     {
         return view('dashboard');
+    }
+    public function chart(): string
+    {
+        return view('chart');
     }
 
 }
