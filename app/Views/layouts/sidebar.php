@@ -3,9 +3,9 @@
 <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true" data-img="<?= base_url('theme-assets/images/backgrounds/02.jpg') ?>">
     <div class="navbar-header">
         <ul class="nav navbar-nav flex-row justify-content-center">
-            <li class="nav-item ">
+            <li class="nav-item">
                 <a class="navbar-brand" href="<?= base_url('dashboard') ?>">
-                    <img class="brand-logo" alt="Chameleon Logo" src="<?= base_url('theme-assets/images/logo/logo.png') ?>">
+                    <img class="brand-logo" alt="Chameleon Logo" src="<?= base_url('theme-assets/images/logo/cmw.png') ?>">
                     <h3 class="brand-text">CMSH</h3>
                 </a>
             </li>

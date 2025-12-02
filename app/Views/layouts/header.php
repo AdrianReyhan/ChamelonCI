@@ -11,8 +11,11 @@
 
     <title><?= esc($title ?? 'Dashboard') ?> | CMSH</title>
 
-    <link rel="apple-touch-icon" href="<?= base_url('theme-assets/images/ico/apple-icon-120.png') ?>">
-    <link rel="shortcut icon" href="<?= base_url('theme-assets/images/ico/favicon.ico') ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url('theme-assets/images/logo/cmww.png') ?>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url('theme-assets/images/logo/cmww.png') ?>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url('theme-assets/images/logo/cmww.png') ?>">
+    <link rel="shortcut icon" href="<?= base_url('theme-assets/images/logo/cmww.png') ?>" type="image/png">
+
 
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700|Comfortaa:300,400,700" rel="stylesheet">
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">

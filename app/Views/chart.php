@@ -23,13 +23,75 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Raw Material</h4>
+                <h5 class="card-title text-center" style="font-weight: 700; font-size: 2rem;">Raw Material</h5>
             </div>
+
             <div class="card-content collapse show">
                 <div class="card-body card-dashboard">
+                    <div class="p-3 mb-3">
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <label>Part No:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-4 mb-2">
+                                <label>Local Import:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-4 mb-2">
+                                <label>Code:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <label>Product Group:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-md-4 mb-2">
+                                <label>Lead Time Ord:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-4 mb-2">
+                                <label>Supplier MPQ:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-4 mb-2">
+                                <label>Supply MPQ:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
+                                <label>STO Code:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-4 mb-2">
+                                <label>Unit:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-4 mb-2">
+                                <label>Moving Code:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="table-responsive">
                         <table id="datatable" class="table table-striped table-bordered">
-                            <thead class="bg-info text center">
+
+                            <thead class="bg-info text-center">
                                 <tr>
                                     <th>Location No.</th>
                                     <th>Warehouse</th>
@@ -43,6 +105,7 @@
                                     <th>On Hand</th>
                                 </tr>
                             </thead>
+
                             <tbody>
                                 <tr>
                                     <td>LOC-001</td>
@@ -69,8 +132,10 @@
                                     <td>1028</td>
                                 </tr>
                             </tbody>
+
                         </table>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -84,7 +149,7 @@
         var table = $('#datatable').DataTable({
             responsive: true,
             dom: '<"top"<"left-col"l><"center-col"B><"right-col"f>>rtip',
-            buttons: ['copy', 'excel', 'pdf', 'print'],
+            buttons: ['excel', 'pdf', 'print'],
             lengthMenu: [
                 [10, 25, 50, -1],
                 [10, 25, 50, "All"]
