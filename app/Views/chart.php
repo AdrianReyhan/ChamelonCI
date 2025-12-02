@@ -5,6 +5,17 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.7.0/css/buttons.bootstrap4.min.css">
 
+<style>
+    #datatable {
+        font-size: 0.875rem
+    }
+
+    #datatable th,
+    #datatable td {
+        padding: 1rem !important
+    }
+</style>
+
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
@@ -12,38 +23,50 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Zero Configuration</h4>
+                <h4 class="card-title">Raw Material</h4>
             </div>
             <div class="card-content collapse show">
                 <div class="card-body card-dashboard">
                     <div class="table-responsive">
                         <table id="datatable" class="table table-striped table-bordered">
-                            <thead>
+                            <thead class="bg-info text center">
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
-                                    <th>Start date</th>
-                                    <th>Salary</th>
+                                    <th>Location No.</th>
+                                    <th>Warehouse</th>
+                                    <th>Min Stock</th>
+                                    <th>Max Stock</th>
+                                    <th>Begin Stock</th>
+                                    <th>In</th>
+                                    <th>Received</th>
+                                    <th>Out</th>
+                                    <th>Adjustment</th>
+                                    <th>On Hand</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Airi Satou</td>
-                                    <td>Accountant</td>
-                                    <td>Tokyo</td>
+                                    <td>LOC-001</td>
+                                    <td>Warehouse A</td>
+                                    <td>10</td>
                                     <td>33</td>
-                                    <td>2008/11/28</td>
-                                    <td>$162,700</td>
+                                    <td>65</td>
+                                    <td>29</td>
+                                    <td>98</td>
+                                    <td>67</td>
+                                    <td>77</td>
+                                    <td>108</td>
                                 </tr>
                                 <tr>
-                                    <td>pzz</td>
-                                    <td>Accountant</td>
-                                    <td>Tokyo</td>
-                                    <td>33</td>
-                                    <td>2008/11/28</td>
-                                    <td>$162,700</td>
+                                    <td>LOC-002</td>
+                                    <td>Warehouse B</td>
+                                    <td>20</td>
+                                    <td>35</td>
+                                    <td>15</td>
+                                    <td>294</td>
+                                    <td>938</td>
+                                    <td>671</td>
+                                    <td>76</td>
+                                    <td>1028</td>
                                 </tr>
                             </tbody>
                         </table>

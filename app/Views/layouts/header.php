@@ -9,7 +9,7 @@
     <meta name="keywords" content="admin, dashboard, template, bootstrap, webapp">
     <meta name="author" content="ThemeSelect">
 
-    <title><?= esc($title ?? 'Dashboard') ?> | Chameleon Admin</title>
+    <title><?= esc($title ?? 'Dashboard') ?> | CMSH</title>
 
     <link rel="apple-touch-icon" href="<?= base_url('theme-assets/images/ico/apple-icon-120.png') ?>">
     <link rel="shortcut icon" href="<?= base_url('theme-assets/images/ico/favicon.ico') ?>">
