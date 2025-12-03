@@ -28,7 +28,7 @@
 
             <div class="card-content collapse show">
                 <div class="card-body card-dashboard">
-                    <div class="p-3 mb-3">
+                    <div class="p-3">
                         <div class="row">
                             <div class="col-md-4 mb-2">
                                 <label>Part No:</label>
@@ -89,9 +89,11 @@
                             </div>
                         </div>
 
-                        <div class="row">
-
-                        </div>
+                        <!-- <div class="row mt-2">
+                            <div class="col-md-12 text-right">
+                                <input class="btn btn-primary btn-min-width" type="submit" value="Submit">
+                            </div>
+                        </div> -->
                     </div>
 
                     <div class="table-responsive">
@@ -170,4 +172,5 @@
         });
     });
 </script>
+
 <?= $this->endSection() ?>

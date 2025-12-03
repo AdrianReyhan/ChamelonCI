@@ -23,17 +23,17 @@
                 </a>
             </li>
 
-            <li class="<?= ($uri == 'chart') ? 'active' : '' ?>">
-                <a href="<?= base_url('chart') ?>">
+            <li class="<?= ($uri == 'rmstock') ? 'active' : '' ?>">
+                <a href="<?= base_url('rmstock') ?>">
                     <i class="ft-pie-chart"></i>
-                    <span>Charts</span>
+                    <span>Rm Stock</span>
                 </a>
             </li>
 
-            <li class="<?= ($uri == 'cards') ? 'active' : '' ?>">
-                <a href="<?= base_url('cards') ?>">
-                    <i class="ft-layers"></i>
-                    <span>Cards</span>
+            <li class="<?= ($uri == 'defecttarget') ? 'active' : '' ?>">
+                <a href="<?= base_url('defecttarget') ?>">
+                    <i class="la la-exclamation-triangle"></i>
+                    <span>Defect Target</span>
                 </a>
             </li>
         </ul>

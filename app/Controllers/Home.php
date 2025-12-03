@@ -17,9 +17,13 @@ class Home extends BaseController
     {
         return view('dashboard');
     }
-    public function chart(): string
+    public function rmstock(): string
     {
-        return view('chart');
+        return view('RmStock');
+    }
+    public function defecttarget(): string
+    {
+        return view('DefectTargetQTY');
     }
 
 }

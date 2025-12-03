@@ -8,4 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('/register', 'Home::register');
 $routes->get('/dashboard', 'Home::dashboard');
-$routes->get('/chart', 'Home::chart');
+$routes->get('/rmstock', 'Home::rmstock');
+$routes->get('/defecttarget', 'Home::defecttarget');
