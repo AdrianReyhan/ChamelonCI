@@ -36,6 +36,13 @@
                             </div>
 
                             <div class="col-md-4 mb-2">
+                                <label class="text-white">.</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 mb-2">
                                 <label>Local Import:</label>
                                 <input type="text" class="form-control">
                             </div>
@@ -44,9 +51,7 @@
                                 <label>Code:</label>
                                 <input type="text" class="form-control">
                             </div>
-                        </div>
 
-                        <div class="row">
                             <div class="col-md-4 mb-2">
                                 <label>Product Group:</label>
                                 <input type="text" class="form-control">
@@ -54,37 +59,38 @@
                         </div>
 
                         <div class="row mt-3">
-                            <div class="col-md-4 mb-2">
+                            <div class="col-md-2 mb-2">
                                 <label>Lead Time Ord:</label>
                                 <input type="text" class="form-control">
                             </div>
 
-                            <div class="col-md-4 mb-2">
+                            <div class="col-md-2 mb-2">
                                 <label>Supplier MPQ:</label>
                                 <input type="text" class="form-control">
                             </div>
 
-                            <div class="col-md-4 mb-2">
+                            <div class="col-md-2 mb-2">
                                 <label>Supply MPQ:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-md-2 mb-2">
+                                <label>STO Code:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-2 mb-2">
+                                <label>Unit:</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-2 mb-2">
+                                <label>Moving Code:</label>
                                 <input type="text" class="form-control">
                             </div>
                         </div>
 
                         <div class="row">
-                            <div class="col-md-4 mb-2">
-                                <label>STO Code:</label>
-                                <input type="text" class="form-control">
-                            </div>
 
-                            <div class="col-md-4 mb-2">
-                                <label>Unit:</label>
-                                <input type="text" class="form-control">
-                            </div>
-
-                            <div class="col-md-4 mb-2">
-                                <label>Moving Code:</label>
-                                <input type="text" class="form-control">
-                            </div>
                         </div>
                     </div>
 

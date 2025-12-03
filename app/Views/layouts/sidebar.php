@@ -5,9 +5,11 @@
         <ul class="nav navbar-nav flex-row justify-content-center">
             <li class="nav-item">
                 <a class="navbar-brand" href="<?= base_url('dashboard') ?>">
-                    <img class="brand-logo" alt="Chameleon Logo" src="<?= base_url('theme-assets/images/logo/cmw.png') ?>">
+                    <!-- <img class="brand-logo" alt="logo" src="<?= base_url('theme-assets/images/logo/cmw.png') ?>"> -->
                     <h3 class="brand-text">CMSH</h3>
                 </a>
+
+                
             </li>
             <li class="nav-item d-md-none"><a class="nav-link close-navbar"><i class="ft-x"></i></a></li>
         </ul>

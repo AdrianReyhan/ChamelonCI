@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= esc($title ?? 'Authentication') ?>CMSH</title>
+    <title><?= esc($title ?? 'Authentication') ?> CMSH</title>
 
     <link rel="stylesheet" href="<?= base_url('theme-assets/css/vendors.css') ?>">
     <link rel="stylesheet" href="<?= base_url('theme-assets/css/app-lite.css') ?>">

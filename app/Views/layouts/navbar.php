@@ -19,7 +19,7 @@
                                 <a class="dropdown-item" href="<?= base_url('profile') ?>">
                                     <span class="avatar avatar-online">
                                         <img src="<?= base_url('theme-assets/images/portrait/small/profile.png') ?>" alt="avatar">
-                                        <span class="user-name text-bold-700 ml-1">John Doe</span>
+                                        <span class="user-name text-bold-700 ml-1">Admin</span>
                                     </span>
                                 </a>
                                 <div class="dropdown-divider"></div>

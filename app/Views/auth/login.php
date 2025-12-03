@@ -27,6 +27,19 @@
         backdrop-filter: blur(4px);
     }
 
+    .card-header {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .card-body {
+        padding: 0.75rem 1rem !important;
+    }
+
+    .card-header img {
+        max-height: 120px;
+        width: auto;
+    }
+
     .font-large-1 {
         font-size: 1.8rem;
         font-weight: 600;
@@ -52,12 +65,12 @@
                         <div class="col-12 d-flex align-items-center justify-content-center">
                             <div class="card border-grey border-lighten-3 px-1 py-1 m-0 box-shadow-2">
                                 <div class="card-header border-0">
-                                    <div class="text-center mb-1">
-                                        <img src="<?= base_url('theme-assets/images/logo/logo.png') ?>" alt="branding logo">
+                                    <div class="text-center">
+                                        <img src="<?= base_url('theme-assets/images/logo/cmww.png') ?>" alt="branding logo">
                                     </div>
-                                    <div class="font-large-1 text-center">
-                                        Member Login
-                                    </div>
+                                    <!-- <div class="font-large-1 text-center">
+                                        CMSH Login
+                                    </div> -->
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
